@@ -6,7 +6,9 @@
     "attribution": "<a href=\"https://www.usgs.gov/\" target=\"_blank\">© USGS</a>",
     "scheme": "xyz",
     "tiles": [
-        "https://tiles.nst.guide/contours/{z}/{x}/{y}.pbf"
+        "https://atiles.nst.guide/contours/{z}/{x}/{y}.pbf",
+        "https://btiles.nst.guide/contours/{z}/{x}/{y}.pbf",
+        "https://ctiles.nst.guide/contours/{z}/{x}/{y}.pbf"
     ],
     "minzoom": 11,
     "maxzoom": 11,

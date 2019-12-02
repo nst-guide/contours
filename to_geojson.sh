@@ -17,7 +17,9 @@ for elev_file in data/raw/*GDB.zip; do
     # Only create new geojson files if they don't exist
     if [ ! -f $geojson_name ]; then
         # Create new GeoJSONSeq file using OGR
-        ogr2ogr -f GeoJSONSeq $geojson_name $elev_file Elev_Contour
+        ogr2ogr -f GeoJSONSeq \
+            -sql 'SELECT * FROM Elev_Contour WHERE ContourElevation % 40 = 0.0' \
+            $geojson_name $elev_file
         echo "Finished exporting $elev_file to GeoJSONSeq"
     fi
 done

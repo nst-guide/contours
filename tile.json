@@ -3,7 +3,7 @@
     "name": "contours",
     "description": "USGS 40' contour lines",
     "version": "0.1.0",
-    "attribution": "<a href='https://www.usgs.gov/'>USGS</a>",
+    "attribution": "<a href=\"https://www.usgs.gov/\" target=\"_blank\">© USGS</a>",
     "scheme": "xyz",
     "tiles": [
         "https://tiles.nst.guide/contours/{z}/{x}/{y}.pbf"

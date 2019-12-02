@@ -4,7 +4,7 @@ Generate vector tile contours from USGS data.
 
 ## Overview
 
-I use [OpenMapTiles](https://github.com/openmaptiles/openmaptiles) to self-host
+I use [OpenMapTiles](https://github.com/openmaptiles/openmaptiles) to create self-hosted
 vector map tiles. However, I'm interested in building a topographic, outdoors
 map, and so I need contour lines. The USGS releases [1x1 degree 40' contour line data][contours]
 generated from their 1/3 arc-second seamless DEM. In order to integrate this data with OpenMapTiles, I need to cut the contour lines into vector tiles, and then I can add them as a separate source in my `style.json`. Something like:

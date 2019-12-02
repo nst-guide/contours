@@ -1,0 +1,15 @@
+{
+    "tilejson": "2.2.0",
+    "name": "contours",
+    "description": "USGS 40' contour lines",
+    "version": "0.1.0",
+    "attribution": "<a href='https://www.usgs.gov/'>USGS</a>",
+    "scheme": "xyz",
+    "tiles": [
+        "https://tiles.nst.guide/contours/{z}/{x}/{y}.pbf"
+    ],
+    "minzoom": 11,
+    "maxzoom": 11,
+    "bounds": [-126.01, 31.88, -112.48, 49.36],
+    "center": [ -120.239231, 38.929378]
+}

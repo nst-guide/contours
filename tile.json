@@ -9,7 +9,5 @@
         "https://tiles.nst.guide/contours/{z}/{x}/{y}.pbf"
     ],
     "minzoom": 11,
-    "maxzoom": 11,
-    "bounds": [-126.01, 31.88, -112.48, 49.36],
-    "center": [-120.239231, 38.929378]
+    "maxzoom": 11
 }

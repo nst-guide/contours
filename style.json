@@ -2,7 +2,6 @@
   "version": 8,
   "name": "Contours",
   "metadata": {
-    "maputnik:license": "https://github.com/maputnik/osm-liberty/blob/gh-pages/LICENSE.md",
     "maputnik:renderer": "mbgljs"
   },
   "sources": {
@@ -11,7 +10,8 @@
       "url": "https://raw.githubusercontent.com/nst-guide/contours/master/tile.json"
     }
   },
-  "glyphs": "https://raw.githubusercontent.com/nst-guide/osm-liberty-topo/gh-pages/fonts/{fontstack}/{range}.pbf",
+  "sprite": "",
+  "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "contour_index",

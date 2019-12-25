@@ -50,7 +50,7 @@ cd contours
 
 This is written to work with Python >= 3.6. To install dependencies:
 ```
-pip install click requests
+pip install click requests tqdm
 ```
 
 This also has dependencies on GDAL and
@@ -59,7 +59,7 @@ way of installing GDAL and tippecanoe is through Conda:
 ```
 conda create -n contours python gdal tippecanoe -c conda-forge
 source activate contours
-pip install click requests
+pip install click requests tqdm
 ```
 
 You can also install GDAL and Tippecanoe via Homebrew on MacOS
